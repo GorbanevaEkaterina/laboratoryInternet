@@ -1,3 +1,3 @@
-# Проектная работа Mesto
+# Тестовое задание
 
-https://gorbanevaekaterina.github.io/mesto-project-ff/
+https://gorbanevaekaterina.github.io/laboratoryInternet/
