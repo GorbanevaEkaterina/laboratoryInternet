@@ -8,6 +8,7 @@
   width: 288px;
   border-bottom: 1px solid #eceff2;
   margin: 0 auto;
+  transition: 0.6s;
 }
 
 .questions__details_summary {
@@ -21,9 +22,11 @@
   line-height: 32px;
   color: #191c1f;
   cursor: pointer;
+  transition: 0.6s;
 }
 .questions__details_summary:hover {
   color: #2a6cea;
+  transition: 0.6s;
 }
 .questions__details[open] > .questions__details_summary {
   color: #191c1f;
