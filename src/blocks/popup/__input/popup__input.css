@@ -8,14 +8,22 @@ background: #F6F8FA;
 border: 2px solid #F6F8FA;
 border-radius: 4px;
 outline: none;
+transition: 0.6s;
+
 }
 
 .popup__input:active {
+  padding: 28px 16px 4px 16px;
   border: 2px solid #C2C8CD;
 }
 
 .popup__input:valid {
-  border: 2px solid blue; 
+  border: 2px solid blue;
+  background:url(../../../images/green-s.svg); 
+  background-repeat: no-repeat;
+  background-position: 95% center;
+  padding: 28px 16px 4px 16px;
+  
 }
 .popup__input:last-of-type {
   margin-bottom: 0;
@@ -37,6 +45,10 @@ outline: none;
 
 .popup__input_type_error {
   border: 2px solid red;
+  background:url(../../../images/red-r.svg); 
+  background-repeat: no-repeat;
+  background-position: 95% center;
+  padding: 28px 16px 4px 16px;
 }
 
 .popup__input::placeholder {
