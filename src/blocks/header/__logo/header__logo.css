@@ -1,0 +1,36 @@
+.header__logo {
+  display: flex;
+font-family: 'Graphik LCG';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+text-decoration: none;
+width: 120px;
+justify-content: space-between;
+
+}
+
+.header__logo-image {
+  width: 37px;
+  height: 24px;
+  object-fit: contain;
+}
+
+@media (width >= 375px) {
+  .header__logo {
+      width: 128px;
+  }  
+}
+
+@media (width >= 768px) {
+  .header__logo {
+      width: 142px;
+  }  
+}
+
+@media (width >= 1400px) {
+  .header__logo {
+      width: 120px;
+  }  
+}

@@ -1,0 +1,134 @@
+.header__burger {
+  transition: 0.6s;
+  display: flex;
+  width: 62px;
+  height: 62px;
+  flex-direction: column;
+  cursor: pointer;
+  justify-content: center;
+  background-color: transparent;
+  border: none;
+  align-items: flex-end;
+}
+
+.line {
+  transition: 0.6s;
+  width: 22px;
+  height: 2px;
+  background-color: white;
+  margin: 4px 0;
+  transition: transform 0.6s, opacity 0.3s;
+}
+
+.header__burger.active .line:nth-child(1) {
+  transition: 0.6s;
+  background-color: #191c1f;
+  transform: translateY(5px) rotate(45deg);
+}
+
+.header__burger.active .line:nth-child(2) {
+  transition: 0.6s;
+  background-color: #191c1f;
+  transform: translateY(-5px) rotate(-45deg);
+}
+
+.header__menu {
+  transition: 0.6s;
+  visibility: hidden;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  height: auto;
+  background-color: white;
+  padding: 10px 0;
+  z-index: 999;
+  transform: translateX(-320px);
+  opacity: 0;
+  transition: transform 0.6s ease, opacity 0.6s ease, visibility 0.6s ease;
+}
+
+.header__menu.active {
+  transition: transform 0.6s ease, opacity 0.6s ease, visibility 0.6s ease;
+  visibility: visible;
+  transform: translateX(0);
+  opacity: 1;
+  border-top: 1px solid #eceff2;
+}
+
+.header__menu-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.header__menu-item {
+  text-align: start;
+}
+
+.header__link {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  display: block;
+}
+
+.header__link.active {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Graphik LCG";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: #83898f;
+  padding: 16px;
+  border-bottom: 1px solid #eceff2;
+}
+
+.header__link.active::after {
+  content: url(../../../images/fi-sr-angle-small-right.svg);
+  color: #83898f;
+  width: 24px;
+  height: 24px;
+}
+
+.header__link.white-active {
+  border-bottom: 1px solid white;
+}
+
+.header__link.white-active.active {
+  border-bottom: 1px solid #eceff2;
+}
+
+@media (width >= 1400px) {
+  .header__burger {
+    display: none;
+  }
+  .header__menu {
+    display: block;
+    width: 464px;
+    visibility: visible;
+    position: static;
+    opacity: 1;
+    background-color: transparent;
+    transform: translateX(0);
+  }
+  .header__menu-list {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding: 0px;
+    gap: 24px;
+  }
+  .header__link {
+    padding: 0px;
+    height: 24px;
+  }
+  .header__link:hover {
+    cursor: pointer;
+    border-bottom: 1px solid white;
+  }
+}

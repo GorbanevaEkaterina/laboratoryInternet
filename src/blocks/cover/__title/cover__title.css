@@ -1,0 +1,31 @@
+.cover__title {
+  display: grid;
+  font-family: "Graphik LCG";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: #ffffff;
+}
+@media (width >= 768px) {
+  .cover__title {
+    margin: 0 auto;
+    font-family: "Inter";
+    font-size: 28px;
+    line-height: 40px;
+    word-spacing: 7px;
+    letter-spacing: 0.06rem;
+  }
+}
+
+@media (width >= 1400px) {
+  .cover__title {
+    width: 748px;
+    margin: 0 auto;
+    font-size: 52px;
+    line-height: 64px;
+    word-spacing: 0px;
+    letter-spacing: normal;
+  }
+}

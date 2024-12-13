@@ -1,0 +1,29 @@
+@import url(../about/__list/about__list.css);
+@import url(../about/__title/about__title.css);
+.about {
+    display: flex;
+    flex-direction: column;
+    width: 288px;
+    margin: 0 auto;
+    margin-top: 56px;
+}
+
+@media (width >= 375px) {
+    .about {
+        width: 342px;
+    }  
+}
+
+@media (width >= 768px) {
+    .about {
+        width: 718px;
+    }  
+}
+
+@media (width >= 1400px) {
+    .about {
+        margin-top: 80px;
+        width: 1216px;
+    }  
+}
+

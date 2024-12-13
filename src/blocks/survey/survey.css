@@ -1,0 +1,36 @@
+@import url(../survey/__title/survey__title.css);
+@import url(../survey/__text/survey__text.css);
+@import url(../survey/__list/survey__list.css);
+.survey {
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    margin: 0 auto;
+    margin-top: 72px;
+    background-color: #F6F8FA;
+}
+
+@media (width >= 375px) {
+    .survey {
+        margin-top: 56px;
+        min-width: 375px;
+        width: 100%;
+    }  
+}
+
+@media (width >= 768px) {
+    .survey {
+        margin-top: 36px;
+        min-width: 768px;
+        width: 100%;
+        
+    }   
+}
+
+@media (width >= 1400px) {
+    .survey {
+        margin-top: 50px;
+        min-width: 1400px;
+        width: 100%;
+    }  
+}

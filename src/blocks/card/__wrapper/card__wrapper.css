@@ -1,0 +1,18 @@
+.card__wrapper {
+    display: grid;
+    grid-template-columns: 44px 1fr;
+    grid-template-rows: auto; 
+    gap: 10px; 
+    margin-bottom: 20px; 
+}
+
+@media (width >= 768px) {
+  .card__wrapper {
+      gap: 20px;
+    }  
+  }
+@media (width >= 1400px) {
+  .card__wrapper {
+      gap: 16px;
+    }  
+  }

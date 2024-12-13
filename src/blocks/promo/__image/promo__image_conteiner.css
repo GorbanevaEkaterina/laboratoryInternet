@@ -1,0 +1,39 @@
+.promo__image_conteiner {
+  position: relative;
+  width: 288px;
+  background-image: url(../../../images/cover-section-third.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+@media (width >= 375px) {
+  .promo__image_conteiner {
+    width: 344px;
+    background-image: url(../../../images/cover-section-third375.png);
+  }
+}
+
+@media (width >= 768px) {
+  .promo__image_conteiner {
+    width: 351px;
+    height: 265px;
+    background-image: url(../../../images/cover-section-third768.png);
+  }
+  .promo-image {
+    width: 351px;
+    height: 265px;
+  }
+}
+
+@media (width >= 1400px) {
+  .promo__image_conteiner {
+    width: 592px;
+    height: 448px;
+    background-image: url(../../../images/cover-section-third1920.png);
+  }
+  .promo-image {
+    width: 592px;
+    height: 448px;
+  }
+}

@@ -1,0 +1,34 @@
+.promo__text {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    gap:27px;
+}
+
+.promo__text-paragraph {
+font-family: 'Graphik LCG';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+text-align: center;
+color: #5E646A;
+}
+
+@media (width >= 375px) {
+    .promo__text {
+        gap: 27px;
+    }  
+    .promo__text-paragraph {
+        width: 344px;
+        font-family: 'Inter';
+        }
+  }
+  
+  
+  @media (width >= 1400px) {
+      .promo__text-paragraph {
+      text-align: start;
+      width: 592px;
+      }
+  }

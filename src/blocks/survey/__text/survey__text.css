@@ -1,0 +1,36 @@
+
+.survey__text {
+width: 288px;
+letter-spacing: -0.8px;
+word-spacing: 4px;
+font-family: "Inter";
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+color: #191C1F;
+}
+
+@media (width >= 375px) {
+    .survey__text {
+          width: 344px;
+font-family: 'Graphik LCG';
+
+
+
+    }  
+}
+
+@media (width >= 768px) {
+    .survey__text {
+        width: 728px;
+font-family: 'Graphik LCG';
+        
+    }   
+}
+
+@media (width >= 1400px) {
+    .survey__text {
+       width: 600px;
+    }  
+}

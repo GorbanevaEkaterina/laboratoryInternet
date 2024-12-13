@@ -1,0 +1,75 @@
+.popup__button {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 20px 40px;
+gap: 10px;
+width: 288px;
+height: 64px;
+background: #2A6CEA;
+border-radius: 4px;
+font-family: 'Graphik LCG';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+color: #FFFFFF;
+border: none;
+}
+
+.popup__button:hover {
+  background: #397DFF;
+  cursor: pointer;
+}
+
+.popup__button_disabled {
+  background: #fff;
+  border: 1px solid #000;
+  color: #000;
+  opacity: 0.2;
+  pointer-events: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.confirm-checkbox {
+  width: 24px;
+  height: 24px;
+}
+
+.form__checkbox-label {
+font-family: 'Graphik LCG';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+color: #191C1F;
+padding-left: 15px;
+}
+
+@media (width >= 375px) {
+  .popup__button  {
+    width: 343px;
+  } 
+  
+}
+
+@media (width >= 768px) {
+  .popup__button  {
+    margin-top: 15px;
+    width: 352px;
+  }  
+  .form__checkbox-label {
+    padding-bottom: 15px;
+    }
+}
+
+@media (width >= 1400px) {
+  .popup__button  {
+    width: 384px;
+  }
+}

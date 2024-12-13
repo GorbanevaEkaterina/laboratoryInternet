@@ -1,0 +1,32 @@
+@import url(../reviews/__title/reviews__title);
+@import url(../reviews/__slider/reviews__slider.css);
+.reviews {
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    margin: 0 auto;
+    margin-top: 56px;
+    background-color: #F6F8FA;
+}
+
+@media (width >= 375px) {
+    .reviews {
+        min-width: 375px;
+        width: 100%;
+    }  
+}
+
+@media (width >= 768px) {
+    .reviews {
+        min-width: 768px;
+        width: 100%;
+    }  
+}
+
+@media (width >= 1400px) {
+    .reviews {
+        margin-top: 80px;
+        min-width: 1400px;
+        width: 100%;
+    }  
+}

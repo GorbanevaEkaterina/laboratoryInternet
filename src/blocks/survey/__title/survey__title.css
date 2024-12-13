@@ -1,0 +1,35 @@
+
+.survey__title {
+width: 288px;
+margin-bottom: 14px;    
+font-family: 'Graphik LCG', "Inter";
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 32px;
+color: #191C1F;
+}
+
+@media (width >= 375px) {
+    .survey__title {
+        margin-top: 0px;
+        width: 344px;    
+    }  
+}
+
+@media (width >= 768px) {
+    .survey__title {
+        width: 728px;
+        margin-bottom: 46px;
+        
+    }   
+}
+
+@media (width >= 1400px) {
+    .survey__title {
+        width: 592px;
+        margin-bottom: 17px;
+        
+       
+    }  
+}

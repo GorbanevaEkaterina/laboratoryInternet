@@ -1,0 +1,50 @@
+@import url(./__title/promo__title.css);
+@import url(./__text/promo__text.css);
+@import url(./__image/promo__image_conteiner.css);
+.promo {
+  display: flex;
+  flex-direction: column;
+  margin: 56px auto 0;
+  width: 288px;
+  gap: 25px;
+}
+.promo-content {
+    display: flex;
+    flex-direction: column;
+    gap:25px;
+}
+
+@media (width >= 375px) {
+  .promo {
+      width: 342px;
+      gap: 2px;
+  } 
+  .promo-content {
+    gap:0px;
+} 
+}
+
+@media (width >= 768px) {
+  .promo {
+      width: 727px;
+      flex-direction: row-reverse;
+      gap:24px;
+  }  
+  .promo-content {
+    width: 352px;
+    gap:0px;
+} 
+}
+
+@media (width >= 1400px) {
+  .promo {
+    align-items: center;
+      margin-top: 80px;
+      width: 1216px;
+      gap:30px;
+  } 
+  .promo-content {
+    width: 592px;
+    gap:0px;
+} 
+}

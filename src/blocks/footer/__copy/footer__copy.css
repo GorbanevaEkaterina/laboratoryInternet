@@ -1,0 +1,25 @@
+.footer__copy {
+font-family: 'Graphik LCG';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 32px;
+text-align: center;
+color: #191C1F;
+margin-top: 25px;
+}
+
+@media (width >= 375px) {
+    .footer__copy {
+        margin-top: 0px;
+        padding-top: 28px;
+    }  
+}
+
+@media (width >= 1440px) {
+    .footer__copy {
+        margin-top: 0px;
+        padding-top: 25px;
+        padding-bottom: 28px;
+    }  
+}
